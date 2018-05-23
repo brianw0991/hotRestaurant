@@ -49,15 +49,15 @@ var tables = [
 //Routes
 
 app.get("/",function(req, res){
-    res.sendFile(patn.join(__dirname, "home.html"));
+    res.sendFile(path.join(__dirname, "home.html"));
 });
 
 app.get("/table",function(req, res){
-    res.sendFile(patn.join(__dirname, "table.html"));
+    res.sendFile(path.join(__dirname, "table.html"));
 });
 
 app.get("/reservations",function(req, res){
-    res.sendFile(patn.join(__dirname, "reservations.html"));
+    res.sendFile(path.join(__dirname, "reservations.html"));
 });
 
 //Display all tables
