@@ -20,6 +20,8 @@
   "homepage": "https://github.com/brianw0991/hotRestaurant#readme",
   "dependencies": {
     "all": "0.0.0",
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
   }
 }
