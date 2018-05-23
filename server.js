@@ -7,11 +7,11 @@ var path = require("path");
 // Set up Express App
 
 var app = express();
-var PORT = precess.env.PORT || 9000;
+var PORT = process.env.PORT || 9000;
 
 // Set up 
 app.use(bodyParser.urlencoded({ extended: true}));
-app.use(bodyParser,json());
+app.use(bodyParser.json());
 
 // Table reservation list
 var tables = [
